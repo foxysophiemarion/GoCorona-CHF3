@@ -1,0 +1,25 @@
+//====================================================================================================
+.footer {
+	padding: rem(45) 0;
+	@media (max-width: $mobileSmall) {
+		padding: rem(30) 0;
+	}
+	&__container {
+	}
+
+	&__items {
+		display: flex;
+		column-gap: rem(50);
+		row-gap: rem(30);
+		justify-content: center;
+		align-items: center;
+		@media (max-width: $mobileSmall) {
+			flex-direction: column;
+		}
+	}
+
+	&__item {
+	}
+}
+
+//====================================================================================================
